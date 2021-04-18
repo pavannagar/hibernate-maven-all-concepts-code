@@ -1,0 +1,21 @@
+com.dhakad.Mapping
+	in this package For OneToOne Mapping Example Yo See 
+	Emp And Laptop Entity
+	Emp ----> Laptop (oneToOne)
+	Emp<----- Laptop
+	
+	1 Emp have exactly one Laptop
+				And
+	1 Laptop Associate with only 1 Emp
+	
+	Emp->(Employee)
+	
+	There Are some class with this example
+	1. Emp
+	2. Laptop
+	3. Laptop_Entry
+	4. Emp_Entry
+	5. Search_Emp
+	6. Search_Laptop
+	
+	Sabse pahle Laptop_Entry Karni Hogi Because Iski Primary key Emp ke andar Foreign key he.
